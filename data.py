@@ -1,6 +1,8 @@
 import itertools
 from midi_to_statematrix import upperBound, lowerBound
 
+
+
 def startSentinel():
     def noteSentinel(note):
         position = note
